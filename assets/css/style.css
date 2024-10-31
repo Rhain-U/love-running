@@ -93,7 +93,7 @@ main {
     background-color: lightblue;
     /*Make main element take up any suprlus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 48px;
 }
 
 
@@ -126,4 +126,15 @@ nav {
     display: none;
 }
 
+#logo {
+    font-size:280%
+    line-height: 75px;
+    margin: 0 0.5rem; 
+}
+
+/*Main content*/
+main {
+    /*Push content own to accomodate larger header*/
+    margin-top: 59px
+}
 }
