@@ -96,7 +96,7 @@ main {
     /*Make main element take up any suprlus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 48px;
-}
+
 /* Hero section*/
 #hero {
     height:600px;
@@ -149,9 +149,30 @@ main {
     margin: 5px 0;
 }
 
+/*Reasons image*/
+#circle-cover-bg {
+    background: url(../images/reasons-image.webp) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
 
 /*Footer*/
 footer {
+
     #social-networks {
         text-align:center;
         padding:20px 0;
@@ -165,8 +186,6 @@ footer {
         font-size:160%;
         padding: 5%;
         color: #3a3a3a;
-
-
     }
     
 }
@@ -203,7 +222,7 @@ nav {
 /*Main content*/
 main {
     /*Push main content own to accomodate larger header*/
-    margin-top: 59px
+    margin-top: 79px
 }
 /*Hero*/
 #cover-text {
@@ -211,11 +230,39 @@ main {
     right:50px;
 }
 
+/* Reason Section*/
+#benefits-phyical,
+#benefits-mental {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
 
-/*Large devices (laptops and desktops, 992px and up) */
+
+#benefits-phyical > div,
+#benefits-mental > div {
+    width: 75%;
+
+}
+
+#benefits-mental > div {
+    text-align: end;
+    align-self: flex-end;
+
+}
+
+
+}
+
+/*(laptops and desktops, 992px and up) */
 @media screen and (min-width:992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a; 
     }
         
     }
+
+  
+
+
+
