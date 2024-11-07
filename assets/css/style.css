@@ -304,7 +304,7 @@ footer {
 
 /*Media Queries section*/
 
-/*Large or landscape phones (576px and up)*/
+/*Media Query:Large or landscape phones (576px and up)*/
 @media screen and (min-width:576px) {
     #photos {
         column-count: 2;
@@ -314,7 +314,7 @@ footer {
 
 }
     
-/*Tablets ansd larger devices (768px and up)*/
+/*Media Query: Tablets ansd larger devices (768px and up)*/
 @media screen and (min-width:768px) {
     /* Header*/
 nav {
@@ -341,6 +341,29 @@ nav {
     font-size:280%
     line-height 75px;
     margin: 0 0.5rem; 
+}
+/*Form*/
+/*Sign up*/
+#signup {
+    background-position: center;
+    position: relative;
+}
+
+#signup-form {
+    position: absolute;
+    max-width: 400px;
+    left: 10%;
+    top: 150px;
+}
+
+#join-button:hover {
+    background-color: #454b1b;
+    color: #fafafa;
+
+}
+
+#text-input:hover {
+    border-color: #f16c6b;
 }
 
 /*Main content*/
