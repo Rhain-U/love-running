@@ -369,9 +369,9 @@ nav {
 /*Main content*/
 main {
     /*Push main content own to accomodate larger header*/
-    margin-top: 79px
+    margin-top: 50px
 }
-/*Hero*/
+/*Hero
 #cover-text {
     width:300px;
     right:50px;
